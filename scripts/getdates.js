@@ -1,4 +1,5 @@
 const lastModifiedHTML = document.querySelector(".lastModified")
+const currentYearHTML = document.querySelector(".currentYear")
 
 const lastModifiedDate = new Date(document.lastModified)
 const day = lastModifiedDate.getDate()
@@ -10,3 +11,4 @@ const seconds = String(lastModifiedDate.getSeconds()).padStart(2, '0')
 
 
 lastModifiedHTML.innerText = `Last Modification: ${month}/${day}/${year} ${hour}:${minutes}:${seconds}`
+currentYearHTML.innerText = ` ${year}`
