@@ -1,0 +1,34 @@
+@media screen and (max-width: 930px){
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #visual-hierarchy{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    #parc-proximity{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    
+    }
+    
+    #parc-repetition{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li{
+        margin: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+}
