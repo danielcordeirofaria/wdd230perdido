@@ -36,7 +36,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
 }
 
 ul{
@@ -197,4 +197,56 @@ img{
 
 ul li p, ul li a{
     margin: 8px;
+}
+
+
+/* Novo */
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #eee;
+    color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.navigation li:hover{
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.navigation a {
+	display: block;
+    text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
 }
