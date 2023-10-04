@@ -1,0 +1,10 @@
+:root{
+    --almostBlack: #2b2726;
+    --darkBlue: #0a516d;
+    --green: #018790;
+    --lightGreen: #7dad93;
+    --llGren: #bacca4;
+
+/* change the values below to your chosen font(s) */
+--text-font: 'Young Serif', serif;
+}
