@@ -74,7 +74,7 @@ nav ul {
   font-weight: 700;
   text-decoration: none;
   padding: 0.5rem 0.75rem;
-  background-color: var(--lightGreen);
+  background-color: #eee;
   color: #000;
 }
 
@@ -119,9 +119,7 @@ nav ul {
 .show li:nth-child(4) {
   padding: 1rem 0;
 }
-/* .show li:nth-child(2) {
-    padding: 1rem 0;
-} */
+
 
 #menu.show::before {
   content: "X";
@@ -275,3 +273,6 @@ footer {
     font-size: 25px;
 }
 
+.map{
+  width: 100%;
+}

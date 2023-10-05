@@ -250,3 +250,16 @@ ul li p, ul li a{
 #menu.show::before {
 	content: "X";
 }
+
+.mapDiv{
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    width: 100%;
+    height: 300px;
+    padding: 0 1rem;
+}
