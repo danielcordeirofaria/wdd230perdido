@@ -1,10 +1,277 @@
-:root{
-    --almostBlack: #2b2726;
-    --darkBlue: #0a516d;
-    --green: #018790;
-    --lightGreen: #7dad93;
-    --llGren: #bacca4;
+:root {
+  --almostBlack: #2b2726;
+  --darkBlue: #0a516d;
+  --green: #018790;
+  --lightGreen: #7dad93;
+  --llGren: #bacca4;
 
-/* change the values below to your chosen font(s) */
---text-font: 'Young Serif', serif;
+  /* change the values below to your chosen font(s) */
+  --text-font: "Young Serif", serif;
 }
+
+body {
+  font-family: var(--text-font);
+  font-size: large;
+}
+
+header {
+  background: var(--darkBlue);
+  font-size: large;
+  color: var(--llGren);
+  margin-bottom: 0;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.logo {
+  width: 90px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0 0;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 1rem 4rem;
+  list-style: none;
+}
+
+.navigation li:hover {
+  font-size: 1.25rem;
+  transition: 100ms;
+  font-weight: bold;
+  background-color: var(--green);
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.ulFromNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#menu {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--lightGreen);
+  color: #000;
+}
+
+#menu::before {
+  content: "≡";
+}
+
+.navigation {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.navigation li {
+  display: none;
+  width: 100%;
+  transition: 0.5s;
+}
+
+/* .navigation li:hover{
+    margin: 0;
+    padding: 0.5rem;
+} */
+
+.navigation a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.5s;
+  /* font-size: clamp(1rem, 2vmin, 1.5rem); */
+  font-size: 1rem;
+}
+
+.show li {
+  display: block;
+  text-align: center;
+  background-color: var(--llGren);
+  padding: 1rem 0;
+}
+
+.show li:nth-child(4) {
+  padding: 1rem 0;
+}
+/* .show li:nth-child(2) {
+    padding: 1rem 0;
+} */
+
+#menu.show::before {
+  content: "X";
+}
+
+.joinUs {
+  background-color: var(--llGren);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heroImage {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.joinUs h2 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.events,
+.weatherCard,
+.memberSpotlight {
+  border: solid var(--green) 3px;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  color: var(--almostBlack);
+}
+
+.memberSpotlights {
+  display: flex;
+  flex-direction: column;
+}
+
+.memberSpotlight {
+  display: grid;
+}
+
+.memberSpotlights h2 {
+  text-align: center;
+}
+
+.memberSpotlightList {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: var(--darkBlue);
+  color: var(--llGren);
+  padding: 2rem;
+}
+
+.footerLogo img{
+    width: 120px;
+    margin-right: 1rem;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.address h3{
+    font-size: 18px;
+    
+}
+
+.address p{
+    font-size: 15px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.emailDiv{
+    text-align: center;
+}
+
+.footerLogo{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.firstPart p{
+    margin-top: 0.25rem;
+    color: var(--llGren);
+    text-decoration: none;
+}
+
+.firstPart a{
+    text-decoration: none;
+    color: var(--llGren);
+}
+
+.currentYearDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.currentYear {
+  margin-left: 0.25rem;
+}
+
+.name {
+  margin: 1rem 0;
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.brazilianFlag {
+  width: 25px;
+  margin-left: 1rem;
+}
+
+.lastModified{
+    margin-top: 1rem;
+}
+
+.firstPart{
+    border-bottom: solid 1px var(--llGren);
+    padding-bottom: 1rem;
+}
+
+.secondPart{
+    margin-top: 1rem;
+}
+
+.emailDiv a:last-child:hover{
+    color: var(--almostBlack);
+  }
+
+.joinUsLink{
+    margin-top: 0.25rem;
+    color: var(--almostBlack);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.joinUsLink:hover{
+    font-size: 25px;
+}
+

@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Daniel Faria">
-    <meta name="description"
-        content="This is a page of Chamber of commerce of Industrial City of Curitiba">
+    <meta name="author" content="Daniel Cordeiro Faria">
+    <meta name="description" content="This is a page of Chamber of commerce of Industrial City of Curitiba">
     <link rel="icon" href="images/favicon.png">
     <title>Chamber of commerce of Industrial City of Curitiba</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +19,8 @@
 
     <meta property="og:title" content="Chamber of commerce of Industrial City of Curitiba">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="web page that about the Chamber of commerce of Industrial City of Curitiba">
+    <meta property="og:description"
+        content="web page that about the Chamber of commerce of Industrial City of Curitiba">
     <meta property="og:image" content="https://danielcordeirofaria.github.io/wdd230/chamber/images/shakingHands.webp">
     <meta property="og:url" content="https://danielcordeirofaria.github.io/wdd230/chamber/index.html">
 
@@ -30,7 +30,91 @@
 </head>
 
 <body>
+    <header>
+        <img src="images/smallFactory.jpg" alt="logo" class="logo">
+        <h1>Chamber of commerce of Industrial City of Curitiba</h1>
+    </header>
+    <a id="menu" href="#"></a>
 
+    <nav>
+        <ul class="ulFromNav navigation">
+
+            <li><a href="https://danielcordeirofaria.github.io/wdd230/chamber/index.html"></a>Home</li>
+            <li><a href="#"></a>Discover</li>
+            <li><a href="#"></a>Directory</li>
+            <li><a href="#"></a>Join</li>
+        </ul>
+    </nav>
+    </header>
+    <main class="container">
+        <section class="joinUs">
+            <img src="images/cic.jpeg" alt="" class="heroImage">
+            <h2><a href="#" class="joinUsLink">Join us</a></h2>
+        </section>
+        <section class="events">
+            <div class="event">
+                <h2>Events</h2>
+                <p>Description of event</p>
+            </div>
+        </section>
+        <section class="weatherCard">
+            <h2>Weather</h2>
+            <p>Date about weather</p>
+        </section>
+        <section class="memberSpotlights">
+            <h2>Here will enter a script, that will go through an array of objects (companies) and will draw 3 companies
+                every time the page is loaded. </h2>
+            <h2>Member Spotlights</h2>
+            <ul class="memberSpotlightList">
+                <div class="memberSpotlight">
+                    <h3>memberSpotlight</h3>
+                </div>
+                <div class="memberSpotlight">
+                    <h3>memberSpotlight</h3>
+
+                </div>
+                <div class="memberSpotlight">
+                    <h3>memberSpotlight</h3>
+
+                </div>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="firstPart">
+            <div class="footerLogo">
+                <img src="images/smallFactory.jpg" alt="logo">
+                <div class="address">
+                    <h3>Chamber of commerce of ICC</h3>
+                    <p>487 Rua General Potiguara</p>
+                    <p>ICC, Curitiba</p>
+                </div>
+            </div>
+            <div class="emailDiv">
+                <p>cicc@chambericc.com.br</p>
+                <p>+55 41 99523 - 3589</p>
+                <p><a
+                        href="https://www.google.com.br/maps/place/R.+Gen.+Potiguara,+487+-+Cidade+Industrial+de+Curitiba,+Curitiba+-+PR,+81050-500/@-25.4952206,-49.3129335,17z/data=!3m1!4b1!4m6!3m5!1s0x94dce3990b651f25:0x37dfcfc150ae7a32!8m2!3d-25.4952255!4d-49.3103586!16s%2Fg%2F11t2l256ll?entry=ttu">Location
+                        Map</a></p>
+            </div>
+        </div>
+        <div class="secondPart">
+            <div class="currentYearDiv">
+                <p>&copy;</p>
+                <p class="currentYear"></p>
+
+            </div>
+            <p class="name">Daniel Cordeiro Faria</p>
+            <div class="flag">
+                <p>Brazil</p>
+                <img src="images/brasilSmall.png" alt="brazil flag" class="brazilianFlag">
+            </div>
+            <p>Project for WDD 230</p>
+            <p class="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/buttonMenu.js"></script>
 </body>
 
 </html>
