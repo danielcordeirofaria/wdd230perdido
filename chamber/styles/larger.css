@@ -77,34 +77,33 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-
   }
 
-  .firstPart{
+  .firstPart {
     display: flex;
     justify-content: space-between;
   }
 
-  .address{
+  .address {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
   }
 
-  .firstPart p{
+  .firstPart p {
     margin: 0;
   }
 
-  .firstPart p:last-child{
+  .firstPart p:last-child {
     margin: 0 1rem 2.5rem 0;
   }
 
-  .emailDiv p{
+  .emailDiv p {
     margin-bottom: 0.25rem;
   }
 
-  .secondPart{
+  .secondPart {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -112,12 +111,24 @@
     font-size: 15px;
   }
 
-  .name, .flag, .lastModified{
+  .name,
+  .flag,
+  .lastModified {
     margin: 0;
     padding: 0;
   }
 
-  .joinUs h2{
+  .joinUs h2 {
     padding-bottom: 0;
-}
+  }
+
+  .weatherCard, .events{
+    width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
 }
