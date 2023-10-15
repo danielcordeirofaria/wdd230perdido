@@ -2,7 +2,7 @@
     body{
         font-family: var(--text-font);
         font-size: large;
-        margin: 4rem;
+        margin: 0 4rem;
     
     }
     
@@ -21,9 +21,9 @@
         font-weight: 700;
         text-decoration: none;
         padding: 0.5rem 0.75rem;
-        background-color: #eee;
+        background-color: var(--lightGreen);
         color: #000;
-        display: none;
+
     }
 
     .navigation {
@@ -38,7 +38,7 @@
         max-width: 760px;
     }
     
-
+/* 
     .navigation li:hover{
         font-size: 1.25rem;
         transition: 100ms;
@@ -46,7 +46,7 @@
         background-color: var(--green);
         color: white;
     
-    }
+    } */
 
 
 
@@ -62,16 +62,6 @@
     
     .show li {
         display: block;
-    }
-
-    #menu {
-        display: block;
-        font-size: 2rem;
-        font-weight: 700;
-        text-decoration: none;
-        padding: 0.5rem 0.75rem;
-        background-color: var(--lightGreen);
-        color: #000;
     }
 
     #menu.show::before {

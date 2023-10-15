@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/slider.css">
 
     <meta property="og:title" content="Chamber of commerce of Industrial City of Curitiba">
     <meta property="og:type" content="website">
@@ -30,55 +31,58 @@
 </head>
 
 <body>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
     <header>
         <img src="images/smallFactory.jpg" alt="logo" class="logo">
         <h1>Chamber of commerce of Industrial City of Curitiba</h1>
+
     </header>
     <a id="menu" href="#"></a>
 
     <nav>
         <ul class="ulFromNav navigation">
 
-            <li><a href="https://danielcordeirofaria.github.io/wdd230/chamber/index.html"></a>Home</li>
-            <li><a href="#"></a>Discover</li>
-            <li><a href="#"></a>Directory</li>
-            <li><a href="#"></a>Join</li>
+            <li class="li-hover"><a href="https://danielcordeirofaria.github.io/wdd230/chamber/index.html"></a>Home</li>
+            <li class="li-hover"><a href="#"></a>Discover</li>
+            <li class="li-hover"><a href="#"></a>Directory</li>
+            <li class="li-hover"><a href="#"></a>Join</li>
         </ul>
     </nav>
-    </header>
     <main class="container">
-        <section class="joinUs">
+        <section class="joinUs" id="joinUs">
             <img src="images/cic.jpeg" alt="" class="heroImage">
-            <h2><a href="#" class="joinUsLink">Join us</a></h2>
+            <h2 id="joinUsH2"><a href="#" class="joinUsLink">Join us</a></h2>
         </section>
         <div class="cards">
             <section class="events">
                 <div class="event">
-                    <h2>Events</h2>
-                    <p>Description of event</p>
+                    <h2 class="eventH2">Events</h2>
+                    <p class="eventTitle">The use of software for business management</p>
+                    <p class="eventSpeaker">Speaker: Daniel Faria</p>
+                    <p class="eventData">Wednesday at 10:00 a.m.</p>
+                    <p class="eventLocal">Local: ICC Chamber thirst</p>
                 </div>
             </section>
             <section class="weatherCard">
                 <h2>Weather</h2>
-                <p>Date about weather</p>
+                <img src="images/raining.svg" alt="image of weather">
+                <p class="temperature">33°C</p>
+                <p class="weatherDescription">Raining</p>
+                <p class="humidity">Humidity</p>
+                <p class="humidityNumber">35%</p>
+                <p class="windChill">Wind Chill:</p>
+                <p class="windChillParameter">N/A</p>
+
             </section>
         </div>
         <section class="memberSpotlights">
-            <h2>Here will enter a script, that will go through an array of objects (companies) and will draw 3 companies
-                every time the page is loaded. </h2>
+
             <h2>Member Spotlights</h2>
             <ul class="memberSpotlightList">
-                <div class="memberSpotlight">
-                    <h3>memberSpotlight</h3>
-                </div>
-                <div class="memberSpotlight">
-                    <h3>memberSpotlight</h3>
 
-                </div>
-                <div class="memberSpotlight">
-                    <h3>memberSpotlight</h3>
-
-                </div>
             </ul>
         </section>
     </main>
@@ -117,6 +121,8 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/buttonMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/membersRandom.js"></script>
 </body>
 
 </html>

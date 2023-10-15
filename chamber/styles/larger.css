@@ -2,10 +2,19 @@
   body {
     font-family: var(--text-font);
     font-size: large;
-    margin: 4rem;
+    margin: 0 4rem;
+  }
+
+  .switch {
+    position: absolute;
+    top: 3rem;
+    left: 92%;
+    z-index: 2;
   }
 
   header {
+    position: relative;
+
     background: var(--darkBlue);
     font-size: large;
     color: var(--llGren);
@@ -24,6 +33,7 @@
   nav {
     margin: 0;
     background-color: var(--lightGreen);
+    height: 50px;
   }
 
   .navigation {
@@ -49,6 +59,18 @@
     justify-content: center;
   }
 
+  .navigation li a {
+    transition: 0.5s;
+  }
+
+  .li-hover:hover {
+    font-size: 1.25rem;
+    transition: 100ms;
+    font-weight: bold;
+    background-color: var(--lightGreen);
+    color: var(--darkBlue);
+  }
+
   .logo {
     width: 90px;
   }
@@ -67,6 +89,15 @@
     padding: 2rem;
   }
 
+  .joinUsH2 {
+    top: 4rem;
+    left: 4rem;
+  }
+
+  .heroImage {
+    width: 100%;
+  }
+
   .memberSpotlights {
     display: flex;
   }
@@ -77,6 +108,12 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
+    
+  }
+
+  .memberSpotlight{
+    max-width: 20rem;
   }
 
   .firstPart {
@@ -118,17 +155,26 @@
     padding: 0;
   }
 
-  .joinUs h2 {
+  /* .joinUs h2 {
     padding-bottom: 0;
+  } */
+
+  .weatherCard,
+  .events {
+    width: 100%;
   }
 
-  .weatherCard, .events{
-    width: 100%;
+  .events{
+    padding-bottom: 1rem;
   }
 
   .cards {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+  }
+
+  .memberSpotlight p:last-child{
+    margin-bottom: 0;
   }
 }
