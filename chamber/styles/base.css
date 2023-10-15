@@ -240,9 +240,13 @@ nav ul {
   border-radius: 10px;
   padding: 1rem;
   margin: 1rem;
-  color: var(--almostBlack);
   box-shadow: 0 0 16px var(--lightGreen);
+  height: 12rem;
 }
+
+/* color: var(--almostBlack); */
+
+
 
 .memberSpotlights {
   display: flex;
@@ -262,6 +266,8 @@ nav ul {
   padding-bottom: 0.5rem;
   text-align: center;
 }
+
+
 
 .memberSpotlights h3 {
   text-align: center;
@@ -283,6 +289,7 @@ nav ul {
 .memberSpotlightList {
   display: flex;
   flex-direction: column;
+
 }
 
 footer {

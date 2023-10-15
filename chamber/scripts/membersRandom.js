@@ -61,12 +61,15 @@ function createMemberDiv(company) {
 
     const companyName = document.createElement("h3");
     companyName.textContent = company.companyName;
+    companyName.classList.add("companyNameClass");
 
     const cnpj = document.createElement("p");
     cnpj.textContent = `CNPJ: ${company.cnpj}`;
+    cnpj.classList.add("cnpjClass"); 
 
     const address = document.createElement("p");
     address.textContent = `Address: ${company.address}`;
+    address.classList.add("addressClass");
 
     memberDiv.appendChild(companyName);
     memberDiv.appendChild(cnpj);

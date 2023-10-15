@@ -6,10 +6,14 @@ const liElements = document.querySelectorAll(".li-hover");
 const menu = document.querySelector("#menu");
 const events = document.querySelector(".events");
 const weatherCard = document.querySelector(".weatherCard");
-const memberSpotlights = document.querySelectorAll(".memberSpotlight");
+const memberSpotlights = document.querySelectorAll(".memberSpotlights h2");
+const companyNameClass = document.querySelector(".companyNameClass")
+
+
 const footer = document.querySelector("footer");
 const joinUs = document.querySelector(".joinUs");
 const joinUsH2 = document.querySelector(".joinUs h2");
+
 
 modeButton.addEventListener("click", () => {
     if (modeButton.querySelector("input").checked) {
@@ -41,6 +45,13 @@ modeButton.addEventListener("click", () => {
         joinUs.style.color = "#fff";
         joinUsH2.style.background = "#000";
         joinUsH2.style.color = "#fff";
+        memberSpotlights.style.background = "#000";
+        memberSpotlights.style.color = "#fff";
+        companyNameClass.style.background = "#000";
+        companyNameClass.style.color = "#fff";
+        
+
+
     } else {
         body.style.background = "";
         body.style.color = "";
@@ -70,5 +81,9 @@ modeButton.addEventListener("click", () => {
         joinUs.style.color = "";
         joinUsH2.style.background = "";
         joinUsH2.style.color = "";
+        memberSpotlight.style.background = "";
+        memberSpotlight.style.color = "";
+        companyNameClass.style.background = "";
+        companyNameClass.style.color = "";
     }
 });
