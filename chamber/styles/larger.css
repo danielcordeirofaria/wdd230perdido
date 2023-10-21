@@ -2,7 +2,8 @@
   body {
     font-family: var(--text-font);
     font-size: large;
-    margin: 0 4rem;
+    margin: 0 auto;
+    max-width: 1200px;
   }
 
   .switch {
