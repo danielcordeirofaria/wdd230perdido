@@ -294,3 +294,14 @@ iframe{
     height: 300px;
     padding: 0 1rem;
 }
+
+.pageInformation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageInformation h4{
+    padding: 5px;
+
+}
