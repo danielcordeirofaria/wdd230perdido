@@ -6,9 +6,8 @@ const liElements = document.querySelectorAll(".li-hover");
 const menu = document.querySelector("#menu");
 const events = document.querySelector(".events");
 const weatherCard = document.querySelector(".weatherCard");
-const memberSpotlights = document.querySelectorAll(".memberSpotlights h2");
+const memberSpotlights = document.querySelectorAll(".memberSpotlights");
 const companyNameClass = document.querySelector(".companyNameClass")
-
 
 const footer = document.querySelector("footer");
 const joinUs = document.querySelector(".joinUs");
