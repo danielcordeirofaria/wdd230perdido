@@ -176,7 +176,7 @@ nav ul {
 }
 
 .events,
-.weatherCard{
+.weatherCard {
   border: solid var(--green) 2px;
   border-radius: 10px;
   padding: 1rem;
@@ -206,32 +206,32 @@ nav ul {
   align-items: center;
 }
 
-.temperature{
+.temperature {
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
-.weatherDescription{
+.weatherDescription {
   grid-column: 2/3;
   grid-row: 3/4;
 }
 
-.humidity{
+.humidity {
   grid-column: 1/2;
   grid-row: 4/5;
 }
 
-.humidityNumber{
+.humidityNumber {
   grid-column: 2/3;
   grid-row: 4/5;
 }
 
-.windChill{
+.windChill {
   grid-column: 1/2;
   grid-row: 5/6;
 }
 
-.windChillParameter{
+.windChillParameter {
   grid-column: 2/3;
   grid-row: 5/6;
 }
@@ -246,8 +246,6 @@ nav ul {
 
 /* color: var(--almostBlack); */
 
-
-
 .memberSpotlights {
   display: flex;
   flex-direction: column;
@@ -257,7 +255,7 @@ nav ul {
   display: grid;
 }
 
-.memberSpotlights h2{
+.memberSpotlights h2 {
   font-weight: bold;
   padding: 1rem;
   margin: 1rem;
@@ -267,8 +265,6 @@ nav ul {
   text-align: center;
 }
 
-
-
 .memberSpotlights h3 {
   text-align: center;
   font-size: 20px;
@@ -276,20 +272,16 @@ nav ul {
   line-height: 1.25;
 }
 
-
-.memberSpotlights p{
+.memberSpotlights p {
   text-align: justify;
   font-size: 16px;
   margin-bottom: 0.5rem;
   line-height: 1.25;
-
-
 }
 
 .memberSpotlightList {
   display: flex;
   flex-direction: column;
-
 }
 
 footer {
@@ -396,4 +388,11 @@ footer {
 
 .map {
   width: 100%;
+}
+
+/* Discover Page */
+
+.containerDiscover {
+display: flex;
+margin: 1rem;
 }

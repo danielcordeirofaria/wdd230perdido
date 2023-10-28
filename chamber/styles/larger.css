@@ -178,4 +178,12 @@
   .memberSpotlight p:last-child{
     margin-bottom: 0;
   }
+
+  .containerDiscover {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+  }
+  
+
 }
