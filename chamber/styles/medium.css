@@ -78,9 +78,14 @@
     box-shadow: 0 0 50px #333;
   }
 
-  .sidebar{
+  .sidebar {
     display: flex;
-    margin: 1rem;
+    flex-direction: column;
+  }
+
+  .imagesFromICC {
+    grid-column: 2/4;
+    display: flex;
     justify-content: center;
     flex-direction: column;
   }

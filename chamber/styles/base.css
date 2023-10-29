@@ -439,8 +439,10 @@ footer {
 }
 
 .imagesFromICC {
+  grid-column: 2/4;
   display: flex;
-  margin-top: 1rem;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .allMainContent picture {

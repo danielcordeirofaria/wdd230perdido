@@ -188,26 +188,25 @@
     flex-direction: column;
   }
 
-  .allMainContent picture {
+  .imagesFromICC{
+    grid-column: 2/4;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 
+
+
   .allMainContent picture img {
-    max-width: 690px;
+    /* max-width: 690px; */
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     border-radius: 2rem;
   }
 
   .allMainContent picture img:hover {
     box-shadow: 0 0 50px #333;
-  }
-
-  .imagesFromICC {
-    justify-content: center;
-    grid-column: 2/4;
   }
 
   .allMainContent {
