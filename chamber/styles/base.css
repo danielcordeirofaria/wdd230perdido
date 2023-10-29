@@ -400,7 +400,6 @@ footer {
 
 .sidebar {
   display: grid;
-  grid-template-columns: 16rem;
   grid-template-rows: auto auto auto auto auto auto;
   grid-gap: 1rem;
   margin: 1rem;

@@ -188,23 +188,30 @@
 
   .sidebar{
     grid-template-rows: 9rem 14rem 30rem 10rem 14rem 11rem;
-    
-
+    grid-template-columns: 16rem;
   }
 
   picture{
-    align-items: center;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 
   picture img{
     max-width: 690px;
     align-items: center;
+    margin-bottom: 1.5rem;
+    border-radius: 2rem;
   }
+
+  picture img:hover {box-shadow: 0 0 50px #333;};
 
   .imagesFromICC{
     justify-content: center;
   }
-  
+
+  .allMainContent{ 
+  display: flex;
+  }
 
 }
