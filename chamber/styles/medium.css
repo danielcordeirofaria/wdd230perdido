@@ -69,12 +69,12 @@
     flex-direction: column;
   }
 
-  picture img {
+  .allMainContent picture img {
     margin-bottom: 1.5rem;
     border-radius: 2rem;
   }
 
-  picture img:hover {
+  .allMainContent picture img:hover {
     box-shadow: 0 0 50px #333;
   }
 }
