@@ -60,7 +60,6 @@ h1 {
   color: white;
 }
 
-
 nav ul {
   list-style-type: none;
 }
@@ -111,7 +110,6 @@ nav ul {
   /* font-size: clamp(1rem, 2vmin, 1.5rem); */
   font-size: 1rem;
   color: inherit; /* Isso faz com que os links visitados herdem a cor do elemento pai (normalmente, a cor do texto do body) */
-
 }
 
 .show li {
@@ -396,6 +394,84 @@ footer {
 /* Discover Page */
 
 .containerDiscover {
-display: flex;
-margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: 16rem;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-gap: 1rem;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.sidebar div {
+  border: var(--almostBlack) solid 3px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+
+.sidebar div h4 {
+  font-size: 1.5rem;
+  border-bottom: var(--almostBlack) solid 3px;
+  width: 100%;
+  text-align: center;
+  margin: 1rem 1rem 0 1rem;
+  padding-bottom: 1rem;
+}
+
+.sidebar div p {
+  padding: 1rem 1rem 0 1rem;
+  text-align: center;
+}
+
+.sidebar div p:last-child {
+  padding-bottom: 1rem;
+}
+
+.sidebar a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.imagesFromICC {
+  display: flex;
+  margin-top: 1rem;
+}
+
+picture {
+  width: 100%;
+}
+
+picture img {
+  width: 100%;
+}
+
+.population {
+  grid-row: 1/2;
+}
+
+.companies {
+  grid-row: 2/3;
+}
+
+.citizenshipStreet {
+  grid-row: 3/4;
+}
+
+.jobBank {
+  grid-row: 4/5;
+}
+
+.commercialInformationRequests {
+  grid-row: 5/6;
+}
+
+.numberAssociats {
+  grid-row: 6/7;
 }

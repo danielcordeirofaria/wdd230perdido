@@ -180,10 +180,30 @@
     margin-bottom: 0;
   }
 
-  .containerDiscover {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 1rem;
+  .containerDiscover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sidebar{
+    grid-template-rows: 9rem 14rem 30rem 10rem 14rem 11rem;
+    
+
+  }
+
+  picture{
+    align-items: center;
+    justify-content: center;
+  }
+
+  picture img{
+    max-width: 690px;
+    align-items: center;
+  }
+
+  .imagesFromICC{
+    justify-content: center;
   }
   
 
