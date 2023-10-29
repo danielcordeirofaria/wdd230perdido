@@ -63,7 +63,6 @@
   .navigation li a {
     transition: 0.5s;
     color: inherit; /* Isso faz com que os links visitados herdem a cor do elemento pai (normalmente, a cor do texto do body) */
-
   }
 
   .li-hover:hover {
@@ -111,10 +110,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-    
   }
 
-  .memberSpotlight{
+  .memberSpotlight {
     max-width: 20rem;
   }
 
@@ -166,7 +164,7 @@
     width: 100%;
   }
 
-  .events{
+  .events {
     padding-bottom: 1rem;
   }
 
@@ -176,28 +174,27 @@
     justify-content: space-evenly;
   }
 
-  .memberSpotlight p:last-child{
+  .memberSpotlight p:last-child {
     margin-bottom: 0;
   }
 
-  .containerDiscover{
-    display: flex;
-    flex-direction: row;
+  .containerDiscover {
     justify-content: center;
+    display: grid;
   }
 
-  .sidebar{
-    grid-template-rows: 9rem 14rem 30rem 10rem 14rem 11rem;
-    grid-template-columns: 16rem;
+  .sidebar {
+    display: flex;
+    flex-direction: column;
   }
 
-  .allMainContent picture{
+  .allMainContent picture {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 
-  .allMainContent picture img{
+  .allMainContent picture img {
     max-width: 690px;
     align-items: center;
     margin-bottom: 1.5rem;
@@ -208,12 +205,17 @@
     box-shadow: 0 0 50px #333;
   }
 
-  .imagesFromICC{
+  .imagesFromICC {
     justify-content: center;
+    grid-column: 2/4;
   }
 
-  .allMainContent{ 
-  display: flex;
-  }
+  .allMainContent {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
 
+  }
 }

@@ -399,11 +399,10 @@ footer {
 }
 
 .sidebar {
-  display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
-  grid-gap: 1rem;
+  display: flex;
   margin: 1rem;
   justify-content: center;
+  flex-direction: column;
 }
 
 .sidebar div {
@@ -413,6 +412,7 @@ footer {
   align-items: center;
   flex-direction: column;
   height: auto;
+  margin-bottom: 1rem;
 }
 
 .sidebar div h4 {
