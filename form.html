@@ -42,7 +42,7 @@
     </nav>
     <main>
         <form method="get" action="record.html" onsubmit="return validateForm();">
-            <fieldset>
+            <fieldset class="fieldset">
                 <legend>Login Register</legend>
                 <label class="top"> Username* <input type="text" name="fname" required></label>
                 <label class="top"> Password* <input id="password1" type="text" name="fpassword" required
@@ -56,7 +56,7 @@
                         pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
                         title="Please enter a valid email address." required></label>
 
-                <label class="rClass" for="r">INPUT: range, min, max, datalist, required</label>
+                <label class="rClass"> Page Rating</label>
                 <div id="rangevalue">0</div>
                 <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
                 <datalist id="rangevalues">
@@ -66,11 +66,11 @@
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
-                    <option value="5">6</option>
-                    <option value="5">7</option>
-                    <option value="5">8</option>
-                    <option value="5">9</option>
-                    <option value="5">10</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
                 </datalist>
             </fieldset>
             <label title="This is the submit button.">

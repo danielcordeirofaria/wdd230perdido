@@ -1,7 +1,5 @@
 const password1 = document.querySelector("#password1")
 const password2 = document.querySelector("#password2")
-const inputBtn = document.querySelector(input)
-
 
 function checkinPassword() {
   if (password1.value === password2.value) {

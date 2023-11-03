@@ -29,7 +29,7 @@ fieldset {
 }
 
 label.top,
-label.rClass,
+.rClass,
 #rangevalue,
 .submitBtn {
   margin-top: 1rem;
@@ -48,6 +48,33 @@ input {
   height: 44px;
   color: var(--blue);
   margin-top: .25rem;
+}
+
+input:invalid{
+  background-color: var(--red);
+  text-indent: 0.5rem;
+}
+
+input:focus{
+  background-color: var(--blue);
+  border: var(--blue);
+  color: var(--yellow);
+  text-indent: 0.5rem;
+}
+
+input:required{
+  border: var(--red) solid 6px;
+}
+
+input:required:valid{
+  border-radius: 10px;
+  height: 44px;
+  border: var(--blue) solid 4px;
+  background-color: #071b30;
+  color: var(--yellow);
+  margin-top: .25rem;
+  text-indent: 0.5rem;
+
 }
 
 .submitBtn {
