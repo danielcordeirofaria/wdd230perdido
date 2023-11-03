@@ -1,0 +1,60 @@
+:root {
+  --blue: #071b30;
+  --yellow: #f9b500;
+  --red: #8e1c04;
+
+  /* change the values below to your chosen font(s) */
+  --text-font: "Love Ya Like A Sister", cursive;
+}
+
+main {
+  padding: 2rem;
+}
+
+input[name="confirm_password"].notEqual {
+  border: 2px solid red;
+}
+
+#password1.notEqual,
+#password2.notEqual {
+  border: 2px solid red;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  color: var(--blue);
+  border-radius: 10px;
+}
+
+label.top,
+label.rClass,
+#rangevalue,
+.submitBtn {
+  margin-top: 1rem;
+  font-weight: 800;
+  color: var(--blue);
+}
+
+label.top{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input {
+  border-radius: 10px;
+  height: 44px;
+  color: var(--blue);
+  margin-top: .25rem;
+}
+
+.submitBtn {
+  background-color: var(--red);
+  border: none;
+  padding: 0.75rem;
+  border-radius: 10px;
+  color: var(--yellow);
+
+}
