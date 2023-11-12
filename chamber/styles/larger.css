@@ -216,4 +216,21 @@
     align-items: start;
 
   }
+
+  /*Creating style for directory*/
+
+  .divCompanyList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 90%;
+
+  }
+
+  .divCompanyList h2{
+    grid-column: 1/2;
+  }
+  .divCompanyList p:first-child{
+    grid-column: 2/3;
+  }
+
 }

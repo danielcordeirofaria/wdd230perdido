@@ -11,7 +11,7 @@ async function getLinks() {
 getLinks();
 
 const displayLessons = (lessons) => {
-    lessons.forEach((lesson, lessonIndex) => {
+    lessons.forEach((lesson) => {
         let li = document.createElement("li")
         let p = document.createElement('p')
         p.innerText = `${lesson.lesson}:`

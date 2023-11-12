@@ -12,6 +12,11 @@
 body {
   font-family: var(--text-font);
   font-size: large;
+
+  /* way to align numbers */
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
 }
 
 .switch {
@@ -477,3 +482,74 @@ footer {
 .numberAssociats {
   grid-row: 6/7;
 }
+
+/* Directory page */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.menu button {
+  padding: 1rem;
+  font-weight: 700;
+  margin-left: 1rem;
+
+}
+
+.divCompaniesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+  padding: 1rem 2rem;
+}
+.divCompaniesList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-width: 30rem; */
+  /* margin: 1rem 2rem 0 2rem; */
+}
+
+.divCompanyGrid {
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 0px 0px 20px var(--almostBlack);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--llGren);
+  text-align: center;
+}
+
+.divCompanyList{
+  margin: 0rem 2rem;
+  padding: 1rem;
+  border-bottom: 2px solid var(--almostBlack);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--llGren);
+  text-align: center;
+  width: 100%;
+}
+
+.divCompanyList img{
+  display: none;
+}
+
+.divCompanyList:nth-child(even) {
+  background-color: var(--llGren); /* Cor de fundo para empresas pares */
+}
+
+.divCompanyList:nth-child(odd) {
+  background-color: #ffffff; /* Cor de fundo para empresas ímpares */
+}
+
+.divCompany p,
+.divCompany h2 {
+  margin-top: 1rem;
+}
+
+
