@@ -299,9 +299,28 @@ iframe{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column-reverse;
 }
 
 .pageInformation h4{
-    padding: 5px;
+    padding: 0px;
+    margin: 0;
 
+}
+
+.divNumberOfVisitation{
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+
+.pageInformation h4:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.pageInformation h4:last-child {
+    margin: 1rem;
+    margin-right: 0.5rem;
+    
 }
