@@ -9,7 +9,7 @@ const weatherCard = document.querySelector(".weatherCard");
 const memberSpotlights = document.querySelectorAll(".memberSpotlights");
 const companyNameClass = document.querySelector(".companyNameClass")
 
-const footer = document.querySelector("footer");
+const footer = document.querySelector(".footer");
 const joinUs = document.querySelector(".joinUs");
 const joinUsH2 = document.querySelector(".joinUs h2");
 
