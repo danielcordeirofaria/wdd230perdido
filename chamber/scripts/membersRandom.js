@@ -1,48 +1,48 @@
 const membersList = [
     {
         id: 1,
-        companyName: "VOLVO DO BRASIL VEICULOS LTDA",
-        cnpj:"43.999.424/0001-14",
-        address: "AVENIDA JUSCELINO K DE OLIVEIRA, 2600 - CIC, CURITIBA/PR"
+        companyName: "Volvo do Brasil Veículos Ltda",
+        cnpj: "43.999.424/0001-14",
+        address: "Avenida Juscelino K. de Oliveira, 2600 - CIC, Curitiba/PR"
     },
     {
         id: 2,
-        companyName: "TROX DO BRASIL DIFUSAO DE AR ACUST FILTRAGEM VENT LTDA",
-        cnpj:"76.881.093/0001-72",
-        address: "RUA CYRO CORREIA PEREIRA, 300 - CIC, CURITIBA/PR"
+        companyName: "Trox do Brasil Difusão de Ar, Acústica, Filtragem e Ventilação Ltda",
+        cnpj: "76.881.093/0001-72",
+        address: "Rua Cyro Correia Pereira, 300 - CIC, Curitiba/PR"
     },
     {
         id: 3,
-        companyName: "CBB INDUSTRIA E COMERCIO DE ASFALTOS E ENGENHARIA LTDA",
-        cnpj:"82.381.815/0001-22",
-        address: "RUA JOAO BETTEGA, 3500 - CIC, CURITIBA/PR"
+        companyName: "CBB Indústria e Comércio de Asfaltos e Engenharia Ltda",
+        cnpj: "82.381.815/0001-22",
+        address: "Rua João Bettega, 3500 - CIC, Curitiba/PR"
     },
     {
         id: 4,
-        companyName: "HCC INDUSTRIA E COMERCIO DE EQUIPAMENTOS AGRICOLAS LTDA",
-        cnpj:"17.955.143/0001-50",
-        address: "RUA DO SEMEADOR, 262 - CIC, CURITIBA/PR"
+        companyName: "HCC Indústria e Comércio de Equipamentos Agrícolas Ltda",
+        cnpj: "17.955.143/0001-50",
+        address: "Rua do Semeador, 262 - CIC, Curitiba/PR"
     },
     {
         id: 5,
-        companyName: "SIM ESTEARINA INDUSTRIA E COMERCIO LTDA",
+        companyName: "Sim Estearina Indústria e Comércio Ltda",
         cnpj: "04.942.328/0001-88",
-        address: "RUA EMILIO ROMANI, 1900 - CIC, CURITIBA/PR"
+        address: "Rua Emílio Romani, 1900 - CIC, Curitiba/PR"
     },
     {
         id: 6,
-        companyName: "J.C.N. INDUSTRIA E COMERCIO DE EMBALAGENS LTDA",
+        companyName: "J.C.N. Indústria e Comércio de Embalagens Ltda",
         cnpj: "03.438.897/0001-28",
-        address: "RUA JOSE ANTUNES FERREIRA, 184 - CIC, CURITIBA/PR"
+        address: "Rua José Antunes Ferreira, 184 - CIC, Curitiba/PR"
     },
     {
         id: 7,
-        companyName: "METALURGICA ANGELIN LTDA",
+        companyName: "Metalúrgica Angelin Ltda",
         cnpj: "82.054.701/0001-78",
-        address: "RUA FRANCISCO SOBANIA, 1235 - CIC, CURITIBA/PR"
+        address: "Rua Francisco Sobania, 1235 - CIC, Curitiba/PR"
     },
+];
 
-]
 
 function shuffleArray(arr, n) {
     const shuffled = [...arr];

@@ -1,63 +1,63 @@
 {
-    "companies":[
+    "companies": [
         {
-            "name":"VOLVO DO BRASIL VEICULOS LTDA",
-            "address":"AVENIDA JUSCELINO K DE OLIVEIRA, 2600 - CIC, CURITIBA/PR",
-            "phoneNumber":"+55 (41) 3317-8196",
+            "name": "Volvo do Brasil Veículos Ltda",
+            "address": "Avenida Juscelino K de Oliveira, 2600 - CIC, Curitiba/PR",
+            "phoneNumber": "+55 (41) 3317-8196",
             "webSite": "www.volvo.com",
             "image": "images/companies/volvoSmall.webp",
             "membershipLevel": "GOLD",
             "email": "volvodobrazil@volvo.com"
         },
         {
-            "name":"NOVO ORIENTE PARTICIPACOES LTDA",
-            "address":"RUA JOAO KALINOWSKI, 170 - CIC, CURITIBA/PR",
-            "phoneNumber":"+55 (41) 3153-8494 ",
+            "name": "Novo Oriente Participações Ltda",
+            "address": "Rua Joao Kalinowski, 170 - CIC, Curitiba/PR",
+            "phoneNumber": "+55 (41) 3153-8494",
             "webSite": "www.http://expressooriente.com.br/",
             "image": "images/companies/novoorienteSmall.webp",
             "membershipLevel": "GOLD",
             "email": "novooriente@novooriente.com.br"
         },
         {
-            "name":"PEROXIDOS DO BRASIL LTDA",
-            "address":"RUA JOAO LUNARDELLI, 1301 - CIC, CURITIBA/PR",
-            "phoneNumber":"+55 (41) 3316-5200",
+            "name": "Peroxidos do Brasil Ltda",
+            "address": "Rua Joao Lunardelli, 1301 - CIC, Curitiba/PR",
+            "phoneNumber": "+55 (41) 3316-5200",
             "webSite": "www.peroxidos.com.br/",
             "image": "images/companies/PEROXIDOSSmall.webp",
             "membershipLevel": "GOLD",
             "email": "peroxidos@peroxidos.com.br"
         },
         {
-            "name":"INSTITUTO DE TECNOLOGIA DO PARANA",
-            "address":"RUA PROFESSOR ALGACYR MUNHOZ MADER, 3775 - CIC, CURITIBA/PR",
-            "phoneNumber":"+55 (41) 3643-2133",
+            "name": "Instituto de Tecnologia do Parana",
+            "address": "Rua Professor Algacyr Munhoz Mader, 3775 - CIC, Curitiba/PR",
+            "phoneNumber": "+55 (41) 3643-2133",
             "webSite": "www.tecpar.br/",
             "image": "images/companies/tecparSmall.webp",
             "membershipLevel": "GOLD",
             "email": "tecpar@tecpar.com.br"
         },
         {
-            "name":"CBB INDUSTRIA E COMERCIO DE ASFALTOS E ENGENHARIA LTDA",
-            "address": "RUA JOAO BETTEGA, 3500 - CIC, CURITIBA/PR",
-            "phoneNumber":"+55 (41) 3091-2200",
+            "name": "CBB Indústria e Comércio de Asfaltos e Engenharia Ltda",
+            "address": "Rua Joao Bettega, 3500 - CIC, Curitiba/PR",
+            "phoneNumber": "+55 (41) 3091-2200",
             "webSite": "www.cbbasfaltos.com.br",
             "image": "images/companies/cbbSmall.webp",
             "membershipLevel": "GOLD",
             "email": "tecpar@tecpar.com.br"
         },
         {
-            "name":"COMPASA DO BRASIL DISTRIBUIDORA DE ASFALTOS LTDA",
-            "address":"RUA DR. MARIO JORGE, 191 - CIC, CURITIBA/PR",
-            "phoneNumber":"+55 (41) 3288-1206",
+            "name": "Compasa do Brasil Distribuidora de Asfaltos Ltda",
+            "address": "Rua Dr. Mario Jorge, 191 - CIC, Curitiba/PR",
+            "phoneNumber": "+55 (41) 3288-1206",
             "webSite": "www.compasadobrasil.com.br",
             "image": "images/companies/copasaSmall.webp",
             "membershipLevel": "GOLD",
             "email": "copasa@copasa.com.br"
         },
         {
-            "name":"CARGOLIFT LOGISTICA S/A",
-            "address":"RUA ARTHUR MARTINS FRANCO, 880 - CIC, CURITIBA/PR",
-            "phoneNumber":"+ 55 (41) 2106-0700",
+            "name": "Cargolift Logística S/A",
+            "address": "Rua Arthur Martins Franco, 880 - CIC, Curitiba/PR",
+            "phoneNumber": "+ 55 (41) 2106-0700",
             "webSite": "www.cargolift.com.br",
             "image": "images/companies/cargoliftSmall.webp",
             "membershipLevel": "GOLD",
