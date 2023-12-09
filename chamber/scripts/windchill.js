@@ -1,3 +1,4 @@
+
 function calculateWindChill(temperature, windSpeed) {
     var temperatureValue = parseFloat(temperature.replace("°F", ""));
     if (temperatureValue <= 50 && windSpeed > 3.0) {
@@ -7,10 +8,3 @@ function calculateWindChill(temperature, windSpeed) {
         return "N/A";
     }
 }
-
-const temperature = document.querySelector(".temperature").textContent
-const windChillParameter = document.querySelector(".windChillParameter")
-
-windChillParameter.textContent = calculateWindChill(temperature, 6)
-
-

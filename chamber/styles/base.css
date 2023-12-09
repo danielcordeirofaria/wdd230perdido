@@ -162,7 +162,7 @@ nav ul {
 }
 
 .eventH2 {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 24px;
   text-align: center;
   margin-bottom: 0.5rem;
@@ -189,18 +189,24 @@ nav ul {
   padding: 1rem;
   margin: 1rem;
   box-shadow: 0 0 16px var(--lightGreen);
-  height: 12rem;
-
+  height: 14rem;
   color: var(--almostBlack);
   font-size: 24px;
-  padding-bottom: 0.5rem;
+  /* padding-bottom: 0.5rem; */
   text-align: center;
+}
+
+.events{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .weatherCard {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
 }

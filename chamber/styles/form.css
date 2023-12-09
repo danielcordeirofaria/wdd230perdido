@@ -37,7 +37,7 @@ label.top{
     width: 100%;
 }
 
-label.top, fieldset div,.membershipLevel, label{
+label.top, fieldset div,.membershipLevel{
     margin-top: 1rem;
 }
 
@@ -48,8 +48,6 @@ label.top input{
     width: 50%;
     min-width: 20rem;
 }
-
-
 
 label.top input:focus #businessDescription:focus{
     border: 5px solid var(--darkBlue);

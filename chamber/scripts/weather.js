@@ -1,4 +1,4 @@
-// const weatherCard = document.querySelector('.weatherCard');
+
 const lat = -25.49;
 const long = -49.34;
 const key = "3fd567ec38f593abe6ddc29dd6159dcd";
@@ -25,8 +25,8 @@ function displayResults(data) {
     const weatherDescription = document.querySelector('.weatherDescription');
     const humidityNumber = document.querySelector('.humidityNumber');
     const windSpeed = data.wind.speed
+    console.log(windSpeed)
 
-    // const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
     weatherImg.setAttribute('src', `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
     weatherImg.setAttribute('alt', 'Weather Icon');
     weatherImg.setAttribute('width', 100);
@@ -37,6 +37,11 @@ function displayResults(data) {
 
     humidityNumber.innerHTML = `${data.main.humidity}%`
 
+
+    const windChillParameter = document.querySelector(".windChillParameter");
+
+    windChillParameter.textContent = calculateWindChill(temperature.innerHTML, windSpeed);
+    
     
 }
 
@@ -48,4 +53,3 @@ function capitalizeFirstLetter(string) {
 document.addEventListener('DOMContentLoaded', function () {
     apiFetch();
 });
-
