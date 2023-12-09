@@ -504,6 +504,10 @@ footer {
   text-align: center;
 }
 
+.optionsMembershipLevel:last-child{
+  margin-bottom: 1rem;
+}
+
 /* Directory page */
 
 .menu {
