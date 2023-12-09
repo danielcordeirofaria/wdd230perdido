@@ -184,10 +184,13 @@ nav ul {
 
 .events,
 .weatherCard {
-  border: solid var(--green) 2px;
+  /* border: solid var(--green) 2px; */
   border-radius: 10px;
   padding: 1rem;
   margin: 1rem;
+  box-shadow: 0 0 16px var(--lightGreen);
+  height: 12rem;
+
   color: var(--almostBlack);
   font-size: 24px;
   padding-bottom: 0.5rem;
@@ -414,7 +417,7 @@ footer {
 }
 
 .sidebar div {
-  border: var(--almostBlack) solid 3px;
+  /* border: var(--almostBlack) solid 3px; */
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -457,9 +460,9 @@ footer {
   width: 100%;
 }
 
-.allMainContent picture img {
+/* .allMainContent picture img {
   width: 100%;
-}
+} */
 
 .population {
   grid-row: 1/2;
@@ -483,6 +486,16 @@ footer {
 
 .numberAssociats {
   grid-row: 6/7;
+}
+
+.message, .population, .companies, .citizenshipStreet, .jobBank, .commercialInformationRequests, .numberAssociats{
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 16px var(--lightGreen);
+  height: 12rem;
+  color: var(--almostBlack);
+  padding-bottom: 0.5rem;
+  text-align: center;
 }
 
 /* Directory page */
@@ -521,7 +534,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--llGren);
+  /* background-color: var(--llGren); */
   text-align: center;
 }
 
